@@ -1,0 +1,52 @@
+
+body {
+
+    font-family:"Segoe UI",Arial,sans-serif ;
+    background-color: #2b542c;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: #DDD;
+    font-size:30px ;
+    padding: 20px ;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 12px;
+    border-width: 0px;
+    border-radius: 0px;
+    
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-size:15px ;
+    padding: 20PX;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    background-color: #4CAF50 ;
+    }
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:active {
+    color: #000;
+    }
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: #4CAF50 ;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #d6c5c5;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #d6c5c5;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #d6c5c5;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #e6bdbd;
+}
+.active{
+    background-color: #616161 ;
+}
